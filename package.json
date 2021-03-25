@@ -1,0 +1,23 @@
+{
+  "name": "readmeGenerator",
+  "version": "1.0.0",
+  "description": "An application that creates a README file via command-line",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bdcii/readmeGenerator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/bdcii/readmeGenerator/issues"
+  },
+  "homepage": "https://github.com/bdcii/readmeGenerator#readme",
+  "dependencies": {
+    "inquirer": "^8.0.0"
+  }
+}
