@@ -1,6 +1,7 @@
 const fs = require('fs');
 const inquirer = require('inquirer');
 
+
 inquirer
     .prompt([
         {
@@ -62,63 +63,83 @@ inquirer
     .then((answers) => {
         const { title, description, technology, installation, usage, contribution, testing, license, email, gitHub } = answers;
 
+        function renderLicenseBadge(license) {
+            if (license === 'MIT') {
+              return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
+            } else if (license === 'GNU(General Public License)') {
+              return `[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)`
+            } else if (license === 'Mozilla') {
+              return `[![License: MPL 2.0](https://img.shields.io/badge/License-MPL%202.0-brightgreen.svg)](https://opensource.org/licenses/MPL-2.0)`
+            } else if (license === 'N/A') {
+              return ""
+            }
+          }
 
-        const file = `
-  
-  # ${title}
 
+        const file = 
+`# ${title}
+${renderLicenseBadge(license)}
 
-  ## Description
-  
-      - *What does it do*? 
-            - ${description}
-       
-      - *Technologies Used:*
-            - ${technology}
-  
-  
-  ## Table of Contents
-  
-      - [Installation](#installation)
-      - [Usage](#usage)
-      - [License](#license)
-      - [Contributing](#contributing)
-      - [Tests](#tests)
-      - [Questions](#questions)
-  
-  
-  
-  ## Installation
-        - ${installation}
-  
-  
-  ## Usage
-  
-      - ${usage}
-  
-  
-  ## License
-        - ${license}
-  
-  
-  ## Contributing
-        - ${contribution}
-      
-  
-  
-  
-  ## Tests
-        - ${testing}
-  
-  
-  
-  ## Questions
-  
-      - Questions/comments?  You can contact me via e-mail or GitHub -
-  
-      - E-mail: ${email}
-  
-      - GitHub: ${gitHub}
+## Description
+        
+*What does it do?*
+        
+    ${description}
+             
+*Technologies Used:*
+        
+    ${technology}
+        
+        
+## Table of Contents
+        
+* [Installation](#installation)
+* [Usage](#usage)
+* [License](#license)
+* [Contributing](#contributing)
+* [Tests](#tests)
+* [Questions](#questions)
+        
+        
+        
+## Installation
+        
+    ${installation}
+        
+        
+        
+## Usage
+        
+*Instructions:*
+        
+    ${usage}
+        
+        
+## License
+        
+    ${license}
+        
+        
+        
+## Contributing
+        
+    ${contribution}
+            
+        
+        
+        
+## Tests
+        
+    ${testing}
+        
+        
+## Questions
+        
+* Questions/comments?  You can contact me via e-mail or GitHub -
+        
+    * E-mail:  ${email}
+        
+    * GitHub: ${gitHub}
   
   `;
         fs.writeFile("README.md", file, (err) => {
