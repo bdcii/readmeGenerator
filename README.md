@@ -1,15 +1,15 @@
-# asdfs
-[![License: GPL v3](https://img.shields.io/badge/License-GPLv3-blue.svg)](https://www.gnu.org/licenses/gpl-3.0)
+# Test App
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
         
 *What does it do?*
         
-    asdf
+    testing app functionality
              
 *Technologies Used:*
         
-    asdf
+    JavaScript,Node.JS
         
         
 ## Table of Contents
@@ -25,7 +25,7 @@
         
 ## Installation
         
-    asdf
+    I'd describe installation instructions here
         
         
         
@@ -33,33 +33,54 @@
         
 *Instructions:*
         
-    adf
+    I'd provide usage instructions here
         
         
 ## License
-        
-    GNU(General Public License)
+*MIT
+
+MIT License
+
+                Copyright (c) [year] [fullname]
+                
+                Permission is hereby granted, free of charge, to any person obtaining a copy
+                of this software and associated documentation files (the "Software"), to deal
+                in the Software without restriction, including without limitation the rights
+                to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+                copies of the Software, and to permit persons to whom the Software is
+                furnished to do so, subject to the following conditions:
+                
+                The above copyright notice and this permission notice shall be included in all
+                copies or substantial portions of the Software.
+                
+                THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+                IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+                FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+                AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+                LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+                OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+                SOFTWARE.
         
         
         
 ## Contributing
         
-    asdf
+    I'd let developers know what's up *here*
             
         
         
         
 ## Tests
         
-    asdf
+    nothing to see here
         
         
 ## Questions
         
 * Questions/comments?  You can contact me via e-mail or GitHub -
         
-    * E-mail:  asdf
+    * E-mail:  testemail@testemail.com
         
-    * GitHub: asdf
+    * GitHub: https://github.com/bdcii/readmeGenerator
   
   
