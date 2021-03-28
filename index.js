@@ -63,8 +63,8 @@ inquirer
     .then((answers) => {
         const { title, description, technology, installation, usage, contribution, testing, license, email, gitHub } = answers;
 
-        let currentTime = new Date()
-        let year = currentTime.getFullYear;
+        
+        let year =  new Date().getFullYear();
 
         function renderLicenseBadge(license) {
             if (license === 'MIT') {
