@@ -63,6 +63,9 @@ inquirer
     .then((answers) => {
         const { title, description, technology, installation, usage, contribution, testing, license, email, gitHub } = answers;
 
+        let currentTime = new Date()
+        let year = currentTime.getFullYear;
+
         function renderLicenseBadge(license) {
             if (license === 'MIT') {
               return `[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)`
@@ -79,7 +82,7 @@ inquirer
             if (license === 'MIT') {
                 return `MIT License
 
-                Copyright (c) [year] [fullname]
+                Copyright (c) [${year}] [*ENTER YOUR FULL NAME HERE BEFORE DEPLOYMENT*]
                 
                 Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
@@ -153,7 +156,7 @@ ${renderLicenseBadge(license)}
         
         
 ## License
-*${license}
+
 
 ${renderLicenseSection(license)}
         

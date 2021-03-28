@@ -1,15 +1,15 @@
-# Test App
+# sdfasdfs
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
         
 *What does it do?*
         
-    testing app functionality
+    asdfasdfsd
              
 *Technologies Used:*
         
-    JavaScript,Node.JS
+    sadfsdfsd
         
         
 ## Table of Contents
@@ -25,7 +25,7 @@
         
 ## Installation
         
-    I'd describe installation instructions here
+    sdfsdfsdf
         
         
         
@@ -33,15 +33,15 @@
         
 *Instructions:*
         
-    I'd provide usage instructions here
+    asdfsd
         
         
 ## License
-*MIT
+
 
 MIT License
 
-                Copyright (c) [year] [fullname]
+                Copyright (c) [function getFullYear() { [native code] }] [*ENTER YOUR FULL NAME HERE BEFORE DEPLOYMENT*]
                 
                 Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
@@ -65,22 +65,22 @@ MIT License
         
 ## Contributing
         
-    I'd let developers know what's up *here*
+    sdfasdfsd
             
         
         
         
 ## Tests
         
-    nothing to see here
+    asdfsdf
         
         
 ## Questions
         
 * Questions/comments?  You can contact me via e-mail or GitHub -
         
-    * E-mail:  testemail@testemail.com
+    * E-mail:  asdfsd
         
-    * GitHub: https://github.com/bdcii/readmeGenerator
+    * GitHub: asd
   
   
