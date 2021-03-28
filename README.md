@@ -33,7 +33,7 @@
         
 *Instructions:*
 
-    [Video Tutorial](https://drive.google.com/file/d/1CNP7wSwDL21AQoTMfwFIppYYzCjwKKeg/view)
+    Video Tutorial: https://drive.google.com/file/d/1CNP7wSwDL21AQoTMfwFIppYYzCjwKKeg/view
 
         
         
