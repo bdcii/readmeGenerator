@@ -1,15 +1,15 @@
-# README Generator Application
+# Test App Name
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
 ## Description
         
 *What does it do?*
         
-    This is a command-line tool that automatically generates a README file for your application, based off user-generated responses to questions.
+    description would go here
              
 *Technologies Used:*
         
-    JavaScript, npm(inquirer)
+    JavaScript, npm
         
         
 ## Table of Contents
@@ -25,16 +25,15 @@
         
 ## Installation
         
-    You need to have 'nodejs' installed on your computer, as well as the javascript file that contains the application code
+    Put your instructions here
         
         
         
 ## Usage
         
 *Instructions:*
-
-    [Video Tutorial](https://drive.google.com/file/d/1CNP7wSwDL21AQoTMfwFIppYYzCjwKKeg/view)
-
+        
+    Provide usage instructions here
         
         
 ## License
@@ -42,7 +41,7 @@
 
 MIT License
 
-                Copyright (c) [2021] [Barton Darrell Chess Jr]
+                Copyright (c) [2021] [*ENTER YOUR FULL NAME HERE BEFORE DEPLOYMENT*]
                 
                 Permission is hereby granted, free of charge, to any person obtaining a copy
                 of this software and associated documentation files (the "Software"), to deal
@@ -66,22 +65,22 @@ MIT License
         
 ## Contributing
         
-    Contact me using the information in the Questions below.
+    Add Developer contribution info here
             
         
         
         
 ## Tests
         
-    N/A
+    provide test info
         
         
 ## Questions
         
 * Questions/comments?  You can contact me via e-mail or GitHub -
         
-    * E-mail:  bdchessii@gmail.com
+    * E-mail:  testemail@testemail.com
         
-    * GitHub: https://github.com/bdcii
+    * GitHub: https://github.com
   
   
